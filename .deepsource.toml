@@ -1,0 +1,16 @@
+version = 1
+
+test_patterns = ["tests/**"]
+
+exclude_patterns = [
+  "vendor/**",
+  "bootstrap/**",
+  "config/**",
+  "database/**",
+  "public/**",
+  "storage/**"
+]
+
+[[analyzers]]
+name = "php"
+enabled = true
